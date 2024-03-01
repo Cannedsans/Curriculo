@@ -5,13 +5,18 @@
 
 body{
     background-image: linear-gradient(to left, black, red);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 img{
     border-radius: 50%;
 }
 main{
-    position: absolute;
-    left: 25%;
+    text-align: center;
     border-radius: 15px;
     width: 50%;
     background-color: #252525;
