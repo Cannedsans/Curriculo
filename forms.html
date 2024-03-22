@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Froms</title>
+  </head>
+  <body>
+    <fieldset>
+      <form action="#">
+        <label for="name">Name</label>
+        <br />
+        <input type="text" name="naem" />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="msg">Message</label>
+        <br />
+        <textarea name="msg" id="msg" cols="15" rows="3"></textarea>
+        <br />
+        <label for="file">Select A File To Upload</label>
+        <br />
+        <input type="text" />
+        <input type="file" name="file" id="file" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </fieldset>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Pizza shop 2.0</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>Pizza Topping</td>
+          <td>
+            <form action="post">
+              <input type="radio" name="sabor" value="supreme" id="super" />
+              <label for="super">Supreme</label>
+              <br />
+
+              <input type="radio" name="sabor" id="vegan value="Vegetarian">
+              <label for="vegan">Vegetarian</label>
+              <br />
+
+              <input type="radio" name="sabor" id="havai" value="havai" />
+              <label for="havai">Hawaiin</label>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>Pizza Sauce</td>
+          <td>
+            <form action="#">
+              <select name="Sauce" id="Sauce">
+                <option value="tomato">tomato</option>
+                <option value="cheese">cheese</option>
+                <option value="etc ">etc</option>
+              </select>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>Opotional Extras</td>
+          <td>
+            <form action="#">
+              <input type="checkbox" name="chesse" id="ch" />
+              <label for="chesse">Extra cheese</label>
+              <input type="checkbox" name="gluten" id="gl" />
+              <label for="gluten">Gluten Free Base</label>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <form action="#">
+              <label for="extra">Delivery Instructions:</label>
+              <br />
+              <textarea name="extra" id="extra" cols="50" rows="3"></textarea>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Send my Order" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <fieldset>
+      <form action="#">
+        <fieldset>
+          <legend>Name</legend>
+          <label for="name1">First Name</label>
+          <input type="text" name="name1" />
+          <br />
+          <label for="name2">Last Name</label>
+          <input type="text" name="name2" />
+        </fieldset>
+        <fieldset>
+          <legend>Sports</legend>
+          Do you enjoy BasketBall?
+          <br />
+          <input type="radio" name="yes" id="basket" />
+          <label for="yes">Yes</label>
+          <br />
+          <input type="radio" name="not" id="basket" />
+          <label for="not">Not</label>
+          <br />
+          Do you enjoy basebal?
+          <br />
+          <input type="radio" name="yes" id="basebal" />
+          <label for="yes">Yes</label>
+          <br />
+          <input type="radio" name="not" id="basebal" />
+          <label for="not">Not</label>
+          <br />
+        </fieldset>
+        <input type="submit" value="Submit Query" />
+      </form>
+    </fieldset>
+    <fieldset>
+      <form action="#">
+        Please fill out the form below
+        <br />
+        <label for="name1">First name</label>
+        <input type="text" name="name1" />
+        <br />
+        <label for="name2">Last name</label>
+        <input type="text" name="name2" />
+        <br />
+        <label for="year">Year of Graduetion:</label>
+        <input type="text" name="year" />
+        <br />
+        <fieldset>
+          <legend>Gender</legend>
+          <input type="radio" name="m" value="y" />
+          <label for="m">Male</label>
+          <br />
+          <input type="radio" name="m" value="y" />
+          <label for="f">Female</label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Telecommunter</legend>
+          <input type="radio" name="n" value="n" />
+          <label for="m">Yes</label>
+          <br />
+          <input type="radio" name="m" value="n" />
+          <label for="f">No</label>
+        </fieldset>
+        <br />
+        <input type="submit" value="Next" />
+      </form>
+    </fieldset>
+    <fieldset>
+      <form action="#">
+        <fieldset>
+          <legend>Gernerial Details</legend>
+          <label for="n">Name:</label>
+          <input type="text" name="n" />
+          <label for="e">Email:</label>
+          <input type="email" name="e" id="e" />
+          <br />
+          Gender: <input type="radio" name="n" id="m" />
+          <label for="n">Male</label>
+          <input type="radio" name="n" id="f" />
+          <label for="n">Male</label>
+          <br />
+          How did you hear abotg us:
+          <select name="#" id="#">
+            <option value="#">Search Engine</option>
+            <option value="#">ETC</option>
+          </select>
+          <br />
+          Comments: <br />
+          <textarea name="#" id="#" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>User Account Details</legend>
+          <label for="user">Username:</label>
+          <input type="text" name="user"/>
+          <br>
+          <label for="key">Password</label>
+          <input type="password" name="key" id="key">
+          <br>
+          Newsletter Subscnpbons: <input type="checkbox" name="pa" id="pa"> <label for="pa">PHP Articles</label>
+          <input type="checkbox" name="ph" id="ph"><label for="ph">PHP News</label>
+        </fieldset>
+        <input type="submit" value="submit"> 
+        <input type="reset" value="Reset">
+      </form>
+    </fieldset>
+  </body>
+</html>
